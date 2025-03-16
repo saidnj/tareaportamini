@@ -1,5 +1,8 @@
-import{defineConfig} from 'vite'
+import { defineConfig } from 'vite';
 
 export default defineConfig({
-    appType: 'mpa'
+  base: '/tareaportamini/', 
+  build: {
+    outDir: 'dist'
+  }
 });
